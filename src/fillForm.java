@@ -54,8 +54,27 @@ public class thirdExample {
 		        
 		        //verify sent elements
 		        
+		        //file
+		        System.out.println(driver.findElement(By.xpath("//*[@id=\"wpcf7-f2598-p2599-o1\"]/form/p/span/input")).getText());
 		        //name
 		        
 		        System.out.println(driver.findElement(By.xpath("//*[@id=\"contact-form-2599\"]/blockquote/p[1]")).getText());
+		        
+		        //email
+		        System.out.println(driver.findElement(By.xpath("//*[@id=\"contact-form-2599\"]/blockquote/p[2]")).getText());
+		        
+		        //website 
+		        
+		        System.out.println(driver.findElement(By.xpath("//*[@id=\"contact-form-2599\"]/blockquote/p[3]")).getText());
+		        
+		        //experience
+		        System.out.println(driver.findElement(By.xpath("//*[@id=\"contact-form-2599\"]/blockquote/p[4]")).getText());
+		        //expertise
+		        System.out.println(driver.findElement(By.xpath("//*[@id=\"contact-form-2599\"]/blockquote/p[5]")).getText());
+		        
+		        //education
+		        System.out.println(driver.findElement(By.xpath("//*[@id=\"contact-form-2599\"]/blockquote/p[6]")).getText());
+		        //comment
+		        System.out.println(driver.findElement(By.xpath("//*[@id=\"contact-form-2599\"]/blockquote/p[7]")).getText());
 }
 }
